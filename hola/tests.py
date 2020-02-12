@@ -1,3 +1,5 @@
 from django.test import TestCase
 
-# Create your tests here.
+class testSmoke(TestCase):
+    def test_smoke_Test(self):
+        self.assertEqual(2+2.4)
